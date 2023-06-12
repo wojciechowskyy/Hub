@@ -1,0 +1,36 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("North Nation discord.gg/northnation", "GrapeTheme")
+
+local Tab = Window:NewTab("Scripts")
+local Section = Tab:NewSection("Project Slayer")
+
+Section:NewButton("AntiAFK", "AntiAFK script", function()
+    --Anti Afk
+
+loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/w1nterofficial/northhub/main/antiafkv2")))()
+end)
+
+Section:NewButton("skeered hub in slayers script discord channel", "AutoFarm Dungeon OP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Skeereddo/name/main/krnl", true))()
+    
+end)
+
+Section:NewButton("Versaware Premium Leaked", "Dungeon", function()
+    loadstring(game:HttpGet('https://gist.githubusercontent.com/ogamartv12/7c61669ce5009bded8b64d6389b560ce/raw/710d3f5c0f75879ff9d72d617d86b978b01e6722/VersaceWare.lua', true))()
+    
+end)
+
+
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Credit")
+
+Section:NewLabel("w1nterofficial#9032")
+Section:NewLabel("discord.gg/northnation")
+Section:NewLabel("Skeered Gui made by discord.gg/skeeredhub")
+Section:NewLabel("Versaware Premium Leaked by Hiii#3844 ")
+Section:NewLabel("Versaware by discord.gg/versaware")
+
+local Tab = Window:NewTab("KeyforSkreeded")
+local Section = Tab:NewSection("KeyforSkreeded")
+
+Section:NewLabel("FinallyChanged")
